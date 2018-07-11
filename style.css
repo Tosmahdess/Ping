@@ -1,0 +1,30 @@
+/* ping */
+
+div#ping
+{
+    left              : 0px;
+    bottom            : 0px;
+    position          : absolute;
+    overflow          : hidden;
+    background-color  : rgba(0, 0, 0, 1);
+}
+
+td.ping
+{
+    font-size         : 30px;
+    text-align        : left;
+    border-radius     : 10px;
+    padding           : 5px 10px;
+    font-weight       : bold;
+}
+
+td.ping_up
+{
+    color             : #00DD00;
+}
+
+td.ping_down
+{
+    background-image  : url('pict/warning.gif');
+    color             : #DD0000;;
+}
